@@ -319,16 +319,16 @@ hr{
   background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px){
   .mountain-image {
     width: 40%;
     text-align: center;
   }
-  .cloud-buttom {
-    left:300px;
+  .bottom-cloud {
+    bottom: 200px;
   }
-  .cloud-top {
-    right:20px;
+  .top-cloud {
+    right: 200px;
   }
   h1 {
     font-size: 3.5rem;
@@ -351,5 +351,66 @@ hr{
   }
   .hobbies-image {
     width: 10%;
+  }
+  body {
+    width:100%;
+    text-align: center;
+  }
+  .top-container {
+    width: 400px;
+  }
+  .middle-container {
+    width: 400px;
+  }
+  .profile-text {
+    width: 85%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 900px)  {
+  .mountain-image {
+    width: 40%;
+    text-align: center;
+  }
+  .bottom-cloud {
+    bottom: 200px;
+  }
+  .top-cloud {
+    right: 200px;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 100px;
+  }
+  .job-title {
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 20%;
+  }
+  .code-skill {
+    width: 10%;
+  }
+  .self-image {
+    width: 50%;
+  }
+  .work-image {
+    width: 10%;
+  }
+  .hobbies-image {
+    width: 10%;
+  }
+  body {
+    width:100%;
+    text-align: center;
+  }
+  .top-container {
+    width: 900px;
+  }
+  .middle-container {
+    width: 900px;
+  }
+  .profile-text {
+    width: 85%;
   }
 }
