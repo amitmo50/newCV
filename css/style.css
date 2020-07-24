@@ -321,7 +321,8 @@ hr{
 
 @media (max-width: 800px) {
   .mountain-image {
-    width: 60%;
+    width: 40%;
+    text-align: center;
   }
   .cloud-buttom {
     left:300px;
