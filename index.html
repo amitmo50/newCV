@@ -11,11 +11,11 @@
 </head>
 <body>
   <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <img class="top-cloud cloud" src="images/cloud.png" alt="cloud-image">
     <h1>I'm Amit Mor</h1>
     <h2 class="job-title">A Software Developer</h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
-    <img  src="images/mountain.png" alt="mountain-image">
+    <img class="bottom-cloud cloud" src="images/cloud.png" alt="cloud-image">
+    <img class="mountain-image" src="images/mountain.png" alt="mountain-image">
   </div>
   <div class="middle-container">
     <div class="profile">
@@ -64,7 +64,7 @@
     </div>
     <hr>
     <div class="skills">
-      <img src="images/code.png" alt="code-image">
+      <img class="code-skill" src="images/code.png" alt="code-image">
       <h2>Skills</h2>
       <div class="skills-row">
         <img class="javascript-image" src="images/JavaScript.png" alt="javascript-image"/>
@@ -191,6 +191,14 @@
     <p class="fotter-paragraph">© 2020 Amit Mor.</p>
   </div>
   
-  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.17.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 </body>
 </html>
