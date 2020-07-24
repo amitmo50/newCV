@@ -330,10 +330,25 @@ hr{
     right:20px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 100px;
   }
   .job-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  hr {
+    width: 20%;
+  }
+  .code-skill {
+    width: 10%;
+  }
+  .self-image {
+    width: 50%;
+  }
+  .work-image {
+    width: 10%;
+  }
+  .hobbies-image {
+    width: 10%;
   }
 }
