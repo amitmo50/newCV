@@ -318,3 +318,22 @@ hr{
   background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
   background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
+
+@media (max-width: 800px) {
+  .mountain-image {
+    width: 80%;
+  }
+  .cloud-buttom {
+    left:300px;
+  }
+  .cloud-top {
+    right:20px;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+  }
+  .job-title {
+    font-size: 1rem;
+  }
+}
